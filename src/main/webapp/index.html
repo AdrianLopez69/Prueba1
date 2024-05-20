@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorial</title>
+</head>
+<body>
+<!--Creamos un form para que envie la informacion al servlet por el metodo post-->
+<h4>Ingrese el numero que desea sacar el Factorial</h4>
+<form id="form" method="post" action="servletFactoria">
+    <!--Generamos un label Para pedir la informacion-->
+    <label for="numero">Numero:</label>
+    <!--Necesitamos un input para el registro de informacion-->
+    <input type="text" id="numero" name="numero">
+    <!--Creamos un boton que envie la informacion y nos redirija-->
+    <button type="submit">Calcular</button>
+</form>
+
+</body>
+</html>
